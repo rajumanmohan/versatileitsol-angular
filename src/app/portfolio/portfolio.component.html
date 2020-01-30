@@ -1,0 +1,339 @@
+<!--  banner -->
+<div class="container-fluid">
+	<div class="row contanct-img">
+		<div class="col-sm-12 nopad">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="industries-bnr">
+							<h1>Portfolio</h1>
+							<h5>Glance through the projects we’ve successfully completed and implemented.
+								From startup projects till enterprises we’ve worked on a range of projects to enable
+								tech
+								forwardness.
+							</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  ./ banner -->
+
+<div class="container">
+	<div class="row mt-5">
+		<div class="col-sm-12">
+			<div class="cust-selct">
+				<div class="p-2 cust-p2">
+					<button type="submit" class="btn button-all"
+						[ngStyle]="{'background-color':activeOne === true ? 'rgb(77, 184, 72)' : '', 'color': activeOne === true ? '#ffffff' : '' }"
+						(click)="showAll()">All</button>
+				</div>
+				<div class="p-2 cust-p2">
+					<button type="submit" class="btn button-all" (click)="showWeb()"
+						[ngStyle]="{'background-color':activeWeb === true ? 'rgb(77, 184, 72)' : '', 'color': activeWeb === true ? '#ffffff' : '' }">Web</button>
+				</div>
+				<div class="p-2 cust-p2">
+					<button type="submit" class="btn button-all" (click)="showAndroid()"
+						[ngStyle]="{'background-color':activeAndroid === true ? 'rgb(77, 184, 72)' : '', 'color': activeAndroid === true ? '#ffffff' : '' }">Android</button>
+				</div>
+				<div class="p-2 cust-p2">
+					<button type="submit" class="btn button-all" (click)="showIos()"
+						[ngStyle]="{'background-color':activeIos === true ? 'rgb(77, 184, 72)' : '', 'color': activeIos === true ? '#ffffff' : '' }">iOS</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- test page -->
+
+<!-- end test page -->
+
+<!-- <div class="container">
+	<div class="row mt-5 mb-5">
+		<div class="col-sm-6">
+
+			<div *ngIf="showOneItems">
+
+				<div class="parent" *ngIf="showAllProjects || showAndroidProjects || showIosProjects ">
+					<div class="revealOnScroll" data-animation="fadeInLeft">
+						<img class="image1" src="assets/images/portfolio/gati-bg.jpg" />
+					</div>
+					<img class="image2" src="assets/images/portfolio/gati-mobile.png" />
+					<span class="gati">
+						<h4>Gati</h4>
+					</span>
+					<span><a href="" class="view-more" routerLink='/portfolio-inner'>View More</a></span>
+					<span class="app-links">
+						<div class="d-flex">
+							<img class="p-2" src="assets/images/portfolio/playstore.png" />
+							<img class="p-2" src="assets/images/portfolio/appstore.png" />
+						</div>
+					</span>
+				</div>
+			</div>
+
+
+			<div class="parent " *ngIf="showAllProjects || showWebProjects  ">
+				<div class="revealOnScroll" data-animation="fadeInLeft">
+					<img class="image1" src="assets/images/portfolio/dinero-bg.jpg" />
+				</div>
+				<img class="image2" src="assets/images/portfolio/dinero-dektop.png" />
+				<span class="gati">
+					<h4>Dinero</h4>
+				</span>
+				<span><a href="" class="view-more">View More</a></span>
+				<span class="app-links">
+					<div class="d-flex">
+						<img class="p-2" src="assets/images/portfolio/web.png" />
+					</div>
+				</span>
+			</div>
+			<div class="parent" *ngIf="showAllProjects || showWebProjects || showAndroidProjects || showIosProjects ">
+				<div class="revealOnScroll" data-animation="fadeInLeft">
+					<img class="image1" src="assets/images/portfolio-bg.jpg" />
+				</div>
+				<img class="image2" src="assets/images/portfolio/dhukan-mobie.png" />
+				<span class="gati">
+					<h4>Dhukan</h4>
+				</span>
+				<span><a href="" class="view-more">View More</a></span>
+				<span class="app-links">
+					<div class="d-flex">
+						<img class="p-2" src="assets/images/portfolio/playstore.png" />
+						<img class="p-2" src="assets/images/portfolio/appstore.png" />
+						<img class="p-2" src="assets/images/portfolio/web.png" />
+					</div>
+				</span>
+			</div>
+			<div class="parent" *ngIf="showAllProjects || showAndroidProjects || showIosProjects">
+				<div class="revealOnScroll" data-animation="fadeInLeft">
+					<img class="image1" src="assets/images/portfolio/ucog-bg.jpg" />
+				</div>
+				<img class="image2" src="assets/images/portfolio/ucod-mobile.png" />
+				<span class="gati">
+					<h4>UCOD</h4>
+				</span>
+				<span><a href="" class="view-more">View More</a></span>
+				<span class="app-links">
+					<div class="d-flex">
+						<img class="p-2" src="assets/images/portfolio/playstore.png" />
+						<img class="p-2" src="assets/images/portfolio/appstore.png" />
+					</div>
+				</span>
+			</div>
+		</div>
+		<div class="col-sm-6">
+			<div class="parent" *ngIf="showAllProjects || showAndroidProjects">
+				<div class="revealOnScroll" data-animation="fadeInLeft">
+					<img class="image1" src="assets/images/portfolio/mywaycar-bg.jpg" />
+				</div>
+				<img class="image2" src="assets/images/portfolio/mywaycar-mobie.png" />
+				<span class="gati">
+					<h4>My way car</h4>
+				</span>
+				<span><a href="" class="view-more">View More</a></span>
+				<span class="app-links">
+					<div class="d-flex">
+						<img class="p-2" src="assets/images/portfolio/playstore.png" />
+					</div>
+				</span>
+			</div>
+			<div class="parent" *ngIf="showAllProjects || showWebProjects || showAndroidProjects || showIosProjects ">
+				<div class="revealOnScroll" data-animation="fadeInLeft">
+					<img class="image1" src="assets/images/portfolio/gohostels-bg.jpg" />
+				</div>
+				<img class="image2" src="assets/images/portfolio/gohostel-mobie.png" />
+				<span class="gati">
+					<h4>GoHostel</h4>
+				</span>
+				<span><a href="" class="view-more">View More</a></span>
+				<span class="app-links">
+					<div class="d-flex">
+						<img class="p-2" src="assets/images/portfolio/playstore.png" />
+						<img class="p-2" src="assets/images/portfolio/appstore.png" />
+						<img class="p-2" src="assets/images/portfolio/web.png" />
+					</div>
+				</span>
+			</div>
+			<div class="parent"
+				*ngIf="showAllProjects || showWebProjects || showAndroidProjects || showIosProjects || showThreeItems">
+				<div class="revealOnScroll" data-animation="fadeInLeft">
+					<img class="image1" src="assets/images/portfolio/tripcare-bg.jpg" />
+				</div>
+				<img class="image2" src="assets/images/portfolio/tripcarei-mobile.png" />
+				<span class="gati">
+					<h4>Tripcare</h4>
+				</span>
+				<span><a href="" class="view-more">View More</a></span>
+				<span class="app-links">
+					<div class="d-flex">
+						<img class="p-2" src="assets/images/portfolio/playstore.png" />
+						<img class="p-2" src="assets/images/portfolio/appstore.png" />
+						<img class="p-2" src="assets/images/portfolio/web.png" />
+					</div>
+				</span>
+			</div>
+			<div class="parent" *ngIf="showAllProjects  || showWebProjects || showThreeItems">
+				<div class="revealOnScroll" data-animation="fadeInLeft">
+					<img class="image1" src="assets/images/portfolio/goodtimesi-bg.jpg" />
+				</div>
+				<img class="image2" src="assets/images/portfolio/goodtimes-dektop.png" />
+				<span class="gati">
+					<h4>Goodtimes</h4>
+				</span>
+				<span><a href="" class="view-more">View More</a></span>
+				<span class="app-links">
+					<div class="d-flex">
+						<img class="p-2" src="assets/images/portfolio/web.png" />
+					</div>
+				</span>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+<!-- pagination -->
+
+<div class="showAll" *ngIf="showAllProjects">
+
+	<div class="container">
+		<div class="row mt-5 mb-5">
+			<div class="col-sm-6 nopad2" *ngFor="let item of data2 | paginate: config">
+				<div class="parent">
+					<div class="revealOnScroll" data-animation="fadeInLeft">
+						<img class="image1" src="{{item.url}}" />
+					</div>
+					<img class="image2" src="{{item.url1}}" />
+					<span class="gati">
+						<h4>{{item.name}}</h4>
+					</span>
+					<span><a href="" class="view-more" [routerLink]="item.rlink">View More</a></span>
+					<span class="app-links">
+						<div class="d-flex visit-image">
+							<a href="{{item.playStoteLink}}" target=" _blank"><img class="p-2" src="{{item.sm1}}" /></a>
+							<a href="{{item.appStoreLink}}" target=" _blank"><img class="p-2" src="{{item.sm2}}" /></a>
+							<a href="{{item.webLink}}" target="_blank"><img class="p-2" src="{{item.sm3}}" /></a>
+						</div>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-sm-12 cust-paginatn">
+				<pagination-controls (pageChange)="pageChanged($event)"></pagination-controls>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- ./pagination -->
+
+
+<div class="showWeb" *ngIf=" showWebProjects">
+	<div class="container">
+		<div class="row mt-5 mb-5">
+			<div class="col-sm-6" *ngFor="let item of WebData | paginate: config1">
+				<div class="parent">
+					<div class="revealOnScroll" data-animation="fadeInLeft">
+						<img class="image1" src="{{item.url}}" />
+					</div>
+					<img class="image2" src="{{item.url1}}" />
+					<span class="gati">
+						<h4>{{item.name}}</h4>
+					</span>
+					<span><a href="" class="view-more" [routerLink]="item.rlink">View More</a></span>
+					<span class="app-links">
+						<div class="d-flex visit-image">
+							<a href="{{item.playStoteLink}}" target=" _blank"><img class="p-2" src="{{item.sm1}}" /></a>
+							<a href="{{item.appStoreLink}}" target=" _blank"><img class="p-2" src="{{item.sm2}}" /></a>
+							<a href="{{item.webLink}}" target=" _blank"><img class="p-2" src="{{item.sm3}}" /></a>
+						</div>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-sm-12 cust-paginatn">
+				<pagination-controls (pageChange)="pageChanged1($event)"></pagination-controls>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="showAnd" *ngIf=" showAndroidProjects">
+	<div class="container">
+		<div class="row mt-5 mb-5">
+			<div class="col-sm-6" *ngFor="let item of AndroidData | paginate: config2">
+				<div class="parent">
+					<div class="revealOnScroll" data-animation="fadeInLeft">
+						<img class="image1" src="{{item.url}}" />
+					</div>
+					<img class="image2" src="{{item.url1}}" />
+					<span class="gati">
+						<h4>{{item.name}}</h4>
+					</span>
+					<span><a href="" class="view-more" [routerLink]="item.rlink">View More</a></span>
+					<span class="app-links">
+						<div class="d-flex visit-image">
+							<a href="{{item.playStoteLink}}" target=" _blank"><img class="p-2" src="{{item.sm1}}" /></a>
+							<a href="{{item.appStoreLink}}" target=" _blank"><img class="p-2" src="{{item.sm2}}" /></a>
+							<a href="{{item.webLink}}" target=" _blank"><img class="p-2" src="{{item.sm3}}" /></a>
+						</div>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-sm-12 cust-paginatn">
+				<pagination-controls (pageChange)="pageChanged2($event)"></pagination-controls>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="showIos" *ngIf="showIosProjects">
+	<div class="container">
+		<div class="row mt-5 mb-5">
+			<div class="col-sm-6" *ngFor="let item of IosData | paginate: config3">
+				<div class="parent">
+					<div class="revealOnScroll" data-animation="fadeInLeft">
+						<img class="image1" src="{{item.url}}" />
+					</div>
+					<img class="image2" src="{{item.url1}}" />
+					<span class="gati">
+						<h4>{{item.name}}</h4>
+					</span>
+					<span><a href="" class="view-more" [routerLink]="item.rlink">View More</a></span>
+					<span class="app-links">
+						<div class="d-flex visit-image">
+							<a href="{{item.playStoteLink}}" target=" _blank"><img class="p-2" src="{{item.sm1}}" /></a>
+							<a href="{{item.appStoreLink}}" target=" _blank"><img class="p-2" src="{{item.sm2}}" /></a>
+							<a href="{{item.webLink}}" target=" _blank"><img class="p-2" src="{{item.sm3}}" /></a>
+						</div>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-5">
+			<div class="col-sm-12 cust-paginatn">
+				<pagination-controls (pageChange)="pageChanged3($event)"></pagination-controls>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <div class="wrapper request-callback revealOnScroll" data-animation="fadeInUp">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-8">
+				<h2 class="header">Request a call back <img src="assets/images/28.png" class="img-fluid"
+						alt="Request a call back"></h2>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<a href="" class="req_btn">Request Now</a>
+			</div>
+		</div>
+	</div>
+</div> -->

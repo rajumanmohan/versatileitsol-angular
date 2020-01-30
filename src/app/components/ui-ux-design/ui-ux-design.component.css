@@ -1,0 +1,55 @@
+/*General CSS*/
+img {max-width:100%;}
+
+/*Director banner*/
+.director-banner .carousel-indicators{top:102%;}
+.director-banner .carousel-caption{text-align: left;left: 0;right:0;height: 100%; top: 0;padding: 175px 0;}
+.director-banner .carousel-indicators li{width: 15px;height: 15px;margin:0 6px;border-radius: 50%;background-color: #c1bfc0;}
+.director-banner .carousel-indicators li:active {background-color:#f26970;}
+.director-banner .carousel-indicators .active {background-color:#f26970;}
+.director-banner .carousel-item {height: 400px;}
+.director-banner h1 {color: #ffffff;word-break: break-all;font-size: 40px;font-weight: 800;line-height: 1.2em;padding-bottom: 0px;margin-bottom: 15px;}
+/* .director-banner h1:after {position: absolute;content: '';left: 0;top: 60%; width: 10%;height: 5px;background-color: #4db848;} */
+.wrapper {margin-top: 40px;}
+.overlay {position: absolute;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0,0,0,0.6);z-index: 2;/*cursor: none;*/}
+.header{font-weight: 800;line-height: 1.2em;padding-bottom: 0px;margin-bottom: 40px;position:relative;}
+.header:after {background:#4db848;top: 50px;content: '';display: block;height: 6px;left: 0%;position: absolute;-webkit-transform: translate(0,0);transform: translate(0,0);width: 70px;}
+.director-banner h1:after {background: #4db848;top: 230px;content: '';display: block;height: 6px;left: 0%;position: absolute;-webkit-transform: translate(0,0);transform: translate(0,0);width: 70px;}
+
+.ui-ux-wrap p {line-height:2rem;}
+.ui-ux-wrap img {width:400px;}
+.dashed-red-border {position: relative;width: 400px;height: 400px;border: 3px dashed red;top: 15%;}
+.ui-ux-wrap img {position: absolute;top: 0;left: 15%;}
+
+
+@media (max-width: 767.98px) {
+    .dashed-red-border {
+        width: 100%;
+        height: 300px;
+    }
+    .ui-ux-wrap img {
+        width: 300px;
+    }
+    .ui-ux-wrap img {
+        left: 15px;;
+    }
+    .director-banner h1 {
+        font-size: 22px;
+        padding-left: 10px;
+    }
+    .director-banner h1:after {
+        top: auto;
+        height: 3px;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .dashed-red-border {
+        width: 100%;
+        height: 300px;
+    }
+    .ui-ux-wrap img {
+        width: 320px;
+    }
+ }

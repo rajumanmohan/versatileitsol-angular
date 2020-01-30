@@ -1,0 +1,55 @@
+.director-details {background:url('/assets/images/director-words.jpg') no-repeat;background-size: 100%;height: 900px;position:relative;}
+.director-content {width:55%; height:100%; background-image:linear-gradient(to right, rgba(240,240,240,1) 82%, rgba(0,0,0,0));padding: 30px 40px 30px 80px;}
+.director-content p{line-height:2rem;}
+.director-content h1 {font-size: 2rem;font-weight: 700;}
+.director-social {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px;
+}
+.director-social li {
+    float: left;
+    margin-right: 15px;
+}
+.director-social li img{
+    width: 50px;
+}
+
+@media (max-width: 767.98px) {
+    .director-content {
+        width: 100%;
+        background-image: none;
+        padding: 270px 0 0 0;
+    }
+    .director-details {
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .director-content {
+        padding: 480px 0 0 0;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    .director-content {
+        width: 70%;
+    }
+    .director-details {
+        height: auto;
+    }
+    .director-details {
+        margin-bottom: 15px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .director-details {
+        height: auto;
+    }
+    .director-details {
+        margin-bottom: 15px;
+    }
+   }

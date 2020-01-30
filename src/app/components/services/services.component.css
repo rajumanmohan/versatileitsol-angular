@@ -1,0 +1,108 @@
+/*Director banner*/
+.services-banner .carousel-indicators{top:102%;}
+.services-banner .carousel-caption{text-align: left;left: 0;right:0;height: 100%; top: 0;padding: 175px 0;}
+.services-banner .carousel-indicators li{width: 15px;height: 15px;margin:0 6px;border-radius: 50%;background-color: #c1bfc0;}
+.services-banner .carousel-indicators li:active {background-color:#f26970;}
+.services-banner .carousel-indicators .active {background-color:#f26970;}
+.services-banner .carousel-item {height: 400px;}
+.services-banner h1 {color: #ffffff;word-break: break-all;font-size: 40px;font-weight: 800;line-height: 1.2em;padding-bottom: 0px;margin-bottom: 15px;}
+/* .director-banner h1:after {position: absolute;content: '';left: 0;top: 60%; width: 10%;height: 5px;background-color: #4db848;} */
+.wrapper {margin-top: 40px;}
+.overlay {position: absolute;width: 100%;height: 100%;top: 0;left: 0;right: 0;bottom: 0;background-color: rgba(0,0,0,0.6);z-index: 2;/*cursor: none;*/}
+.header{font-weight: 800;line-height: 1.2em;padding-bottom: 0px;position:relative;}
+.header:after {background:#4db848;top: 50px;content: '';display: block;height: 6px;left: 0%;position: absolute;-webkit-transform: translate(0,0);transform: translate(0,0);width: 70px;}
+.services-banner h1:after {background: #4db848;top: 230px;content: '';display: block;height: 6px;left: 0%;position: absolute;-webkit-transform: translate(0,0);transform: translate(0,0);width: 70px;}
+
+/*Our Services css*/
+.service-block{position:relative;width:29%;margin:24px;overflow: hidden;background: #ffffff;padding:0px 15px;-webkit-transition:all 1.5s ease;-ms-transition:all 1.5s ease;	-o-transition:all 1.5s ease;-moz-transition:all 1.5s ease;transition:all 1.5s ease;text-align:center;box-sizing:border-box;}
+.service-overlay {display: none;position: absolute;top:0;left:0;width: 100%;height: 100%;background: #000000;opacity: 0.6;}
+.service-block h5 {font-weight:600;margin: 15px;font-size: 18px;    height: 28px;}
+.service-block p {
+    font-weight: 500;
+    margin-top: 30px;
+    height: 123px;
+    min-height: 94px;
+}
+/* .grid-item:hover{background-color:#ec2029; cursor:none;-webkit-transition: all 2s ease;-moz-transition: all 2s ease;transition: all 2s ease;} */
+.service-img {-webkit-filter: invert(0%);filter: invert(0%);margin: 20px 0;/*color:#ffffff;*/}
+.service-block:hover .grid-item h5, .service-block:hover .grid-item p {filter: invert(100%);}
+/* .grid-item:hover .service-img {-webkit-filter: invert(100%); Safari 6.0 - 9.0filter: invert(100%);} */
+img#loading {display:none;}
+/* .grid-item:hover > img#loading {display: block;position: absolute;left: -13%;top: -10%; -webkit-animation: rotate 10s linear infinite; animation: rotate 10s linear infinite; } */
+@-webkit-keyframes rotate{ to{-webkit-transform: rotate(360deg); } }
+@keyframes rotate{ to{transform: rotate(360deg); } }
+.icon-box {border-radius: 50%;width: 100px;height: 100px;background: #4db848;margin: 10px auto;}
+a.service-learn {color: #4db848;font-weight: 600;padding: 10px 20px;border: 1px solid #4db848;border-radius: 40px;}
+.service-block:hover {background: url('/assets/images/bg/ui-ux.jpg') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block2:hover {background: url('/assets/images/bg/web-design.jpg') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block3:hover {background: url('/assets/images/bg/mobile-app.jpg') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block4:hover {background: url('/assets/images/bg/digital-marketing.jpg') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block5:hover {background: url('/assets/images/bg/tech-support.jpg') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block6:hover {background: url('/assets/images/bg/it-consultant.jpg') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block-ml:hover {background: url('/assets/images/bg/ml.jpg') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block-iot:hover {background: url('/assets/images/bg/iot.jpg') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block-enter:hover {background: url('/assets/images/bg/enterprise-solutions.png') no-repeat;background-size:cover;opacity:0.5;cursor: pointer;border-radius: 15px;}
+.service-block:hover > .service-overlay {display: block;-webkit-transition:all 1.5s ease;-ms-transition:all 1.5s ease;	-o-transition:all 1.5s ease;-moz-transition:all 1.5s ease;transition:all 1.5s ease;}
+.service-block:hover > .grid-item a.service-learn {color: #000000;background: #a74cd6;text-decoration: none;border: 0;}
+/* .service-block:hover > .service-block > .overlay {display:block;} */
+.service-block:hover > .grid-item .icon-box {background:#000000;filter: invert(100%);}
+.wrapper.services {position: relative;}
+.dotted-circle{background:url('/assets/images/service-img.png') no-repeat;background-size: 15px 15px;transition: all 2s ease-in-out;}
+.dotted-circle img:hover {background-size: 25px 25px;transition: all 2s ease-in-out;}
+.services-page{
+    width:100%;
+}
+@media (max-width: 1199.98px) {
+    .service-block {
+        width: 33%;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .services-banner h1 {
+        font-size: 22px;
+        padding-left: 10px;
+    }
+    .services-banner h1:after {
+        height: 3px;
+        top: auto;
+        left: 10px;
+    }
+    .service-block {
+        width: 100%;
+        margin: 0;
+    }
+    .header {
+        font-size: 18px;
+    }
+    a.req_btn {
+        position: relative !important; 
+    }
+    .wrapper.request-callback {
+        padding: 20px 0 !important;
+    }
+
+}
+
+/** wrapper styles **/
+a.req_btn {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(#fe000a, #ce050d);
+    border: 1px solid #ffffff;
+    box-shadow: 1px 3px 5px #cccccc;
+    position: absolute;
+    top: 10px;
+}
+
+.wrapper.request-callback {
+    background: #efefef;
+    box-shadow: 1px 5px 10px #000000;
+    padding: 10px 0;
+}
+/** ./wrapper styles **/

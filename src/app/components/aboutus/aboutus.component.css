@@ -1,0 +1,287 @@
+
+.contanct-img {
+    background-image: url(/assets/images/banners/aboutus.jpg);
+    position: relative;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* -webkit-animation: slide 20s linear infinite; */
+}
+
+  /* @-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+  } */
+.nopad {
+    padding: 0;
+}
+.industries-bnr {
+    color: white;
+    top: 150px;
+    position: absolute;
+}
+.industries-bnr h5 {
+    margin-top: 30px;
+    padding-right: 15px;
+}
+.industries-bnr h1:after {
+    background: #4db848;
+    content: '';
+    top: 50px;
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+.header2:after {
+    background: #4db848;
+    content: '';
+    top: 45px;
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+.header2 {
+    margin-bottom: 40px;
+}
+p{
+    text-align: justify;
+}
+.expert {
+    border-left: 5px solid #eaeaea;
+    padding-left: 24px;
+    color: #474747;
+    width:88%;
+    font-size: 16px;
+}
+
+.mission-tabs{
+    background: url(/assets/images/vision.jpg);
+    height: 231px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px;
+}
+.mission-tabs ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid #fefefe;
+}
+.mission-tabs li{
+    display: inline-block;
+    text-align: center;
+    width: 33.3333333333333333%;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffffff;
+    border-right: 1px solid #000000;
+    font-family: "muli-bold";
+}
+.mission-tabs li:hover{
+background: #efefef;
+color:#4db848;
+}
+.about-tabs{
+    height: 100px;
+    padding: 0px;
+    margin-top: 14px;
+}
+.our-hostory{
+    background: #efefef;
+}
+.our-hostory button{
+    background: #ffffff;
+    padding: 3px 14px 2px 25px !important;
+    margin: 7px;
+    height: 33px!important;
+}
+.our-hostory button:hover{
+    background: #4db848;
+    color:#ffffff;
+}
+.btn.focus, .btn:focus {
+    outline: 0 !important;
+    box-shadow: none!important;
+}
+.right-arrow:before{
+    left: -27px!important;
+}
+.our-hostory p{
+    height: 100px;
+    margin-top: 14px;
+    padding: 0px 9px;
+}
+a.req_btn {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 35px;
+    position: absolute;
+    top: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(#fe000a, #ce050d);
+    border: 1px solid #ffffff;
+    box-shadow: 1px 3px 5px #cccccc;
+}
+.header:after {
+    background: #4db848;
+    top: 50px;
+    content: '';
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+.wrapper.request-callback {
+    background: #efefef;
+    box-shadow: 1px 5px 10px #000000;
+    padding: 10px 0;
+}
+/* arrow headed buttons */
+.btn-arrow-right,
+.btn-arrow-left {
+    position: relative;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.btn-arrow-right {
+    padding-left: 36px;
+}
+.btn-arrow-left {
+    padding-right: 36px;
+}
+.btn-arrow-right:before,
+.btn-arrow-right:after,
+.btn-arrow-left:before,
+.btn-arrow-left:after { /* make two squares (before and after), looking similar to the button */
+    content:"";
+    position: absolute;
+    top: 5px; /* move it down because of rounded corners */
+    width: 22px; /* same as height */
+    height: 22px; /* button_outer_height / sqrt(2) */
+    background: inherit; /* use parent background */
+    border: inherit; /* use parent border */
+    border-left-color: transparent; /* hide left border */
+    border-bottom-color: transparent; /* hide bottom border */
+    border-radius: 0px 4px 0px 0px; /* round arrow corner, the shorthand property doesn't accept "inherit" so it is set to 4px */
+    -webkit-border-radius: 0px 4px 0px 0px;
+    -moz-border-radius: 0px 4px 0px 0px;
+}
+.btn-arrow-right:before,
+.btn-arrow-right:after {
+    transform: rotate(45deg); /* rotate right arrow squares 45 deg to point right */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+.btn-arrow-left:before,
+.btn-arrow-left:after {
+    transform: rotate(225deg); /* rotate left arrow squares 225 deg to point left */
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+}
+.btn-arrow-right:before,
+.btn-arrow-left:before { /* align the "before" square to the left */
+    left: -11px;
+}
+.btn-arrow-right:after,
+.btn-arrow-left:after { /* align the "after" square to the right */
+    right: -11px;
+}
+.btn-arrow-right:after,
+.btn-arrow-left:before { /* bring arrow pointers to front */
+    z-index: 1;
+}
+.btn-arrow-right:before,
+.btn-arrow-left:after { /* hide arrow tails background */
+    background-color: #efefef;
+}
+/* arrow headed buttons */
+
+@media (max-width: 767.98px) {
+    a.req_btn {
+        position: relative;
+      }
+      .header {
+          font-size: 20px;
+          margin-bottom: 25px;
+      }
+      .wrapper.request-callback {
+          padding: 25px 0;
+      }
+}
+
+@media (max-width: 1199.98px) { 
+
+    .mission-tabs {
+        height: 199px;
+        
+    }
+    .our-hostory p {
+        height: auto;
+    }
+}
+@media (max-width: 991.98px) { 
+
+    .mission-tabs {
+        height: 143px;
+        margin:13px;
+       
+    }
+    .mission-tabs li{
+        padding: 2px;
+    }
+    .about-tabs {
+    height: auto; 
+    }
+    .about-tabs p{
+        padding:10px; 
+        }
+ }
+
+ @media (max-width: 575.98px) { 
+    .our-hostory button{ 
+        font-size: 11px;
+        padding: 3px 15px 2px 16px !important;
+    }
+  }
+  @media (max-width: 475.98px) { 
+    .our-hostory button{ 
+        font-size: 11px;
+        margin: 0px;
+    }
+
+  }
+
+  @media (max-width: 371.98px) { 
+    .our-hostory button{ 
+        padding: 3px 14px 2px 15px !important;
+        font-size: 9px!important;
+    }
+
+  }
+  @media (max-width: 361.98px) { 
+    .mission-tabs {
+        height: 100px;
+    }
+
+  }
+  @media (max-width: 320.98px) { 
+  .mission-tabs {
+    height: 119px;
+}
+  }

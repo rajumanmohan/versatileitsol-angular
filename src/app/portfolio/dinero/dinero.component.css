@@ -1,0 +1,159 @@
+/* banner styles */
+.contanct-img {
+    background-image: url("../../../assets/images/portfolio/inner/backgrounds/dinero.jpg");
+    position: relative;
+    height: 500px;
+    background-size: cover;
+}
+.nopad {
+    padding: 0;
+}
+.port-flx2 {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.banner-txt2 {
+    position: absolute;
+    top: 140px;
+}
+.banner-txt2 h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 66px;
+}
+.banner-txt2 p {
+    color: white;
+    font-size: 18px;
+}
+.port-flx {
+    cursor: pointer;
+}
+
+.mdl-content p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.gati-limg img {
+    width: 100%;
+}
+.nopad2 {
+    padding: 0;
+}
+.lsit-cnt {
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+/* .contanct-img h1:after {
+    background: #4db848;
+    content: '';
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+} */
+@media (max-width: 767.98px) {
+    .contanct-img {
+        height: 300px;
+    }
+    .banner-txt2 {
+        top: 60px;
+    }
+    .port-flx2 {
+        display: none;
+    }
+    .contanct-img h1 {
+        top: 10%;
+        left: 10%;
+        font-size: 40px;
+    }
+    .contanct-img p {
+        top: 34%;
+        left: 10%;
+        font-size: 12px;
+        max-width: 80%;
+    }
+    .mdl-content {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+    
+    .port-flx2 img {
+        width: 100px;
+        height: 200px;
+    }
+    .banner-txt2 {
+        position: absolute;
+        top: 50px;
+    }
+    .contanct-img {
+        height: 350px;
+    }
+    .contanct-img p {
+        font-size: 16px;
+    }
+ }
+/* banner style ends here */
+
+/*wrapper style*/
+a.req_btn {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(#fe000a, #ce050d);
+    border: 1px solid #ffffff;
+    box-shadow: 1px 3px 5px #cccccc;
+}
+.wrapper.request-callback {
+    background: #efefef;
+    box-shadow: 1px 5px 10px #000000;
+    padding: 20px 0;
+}
+/*wrapper  style ends */
+.inner-heading h2:after {
+    background: #4db848;
+    content: '';
+    display: block;
+    height: 3px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 40px;
+}
+.inner-heading {
+    margin-top: 20px;
+}
+.inner-img img {
+    width: 100%;
+}
+
+.mdl-content h2:after {
+    background: #4db848;
+    top: auto;
+    content: '';
+    display: block;
+    margin-top: 5px;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+.mdl-content h2 {
+    margin-bottom: 40px;
+}
+.mdl-content p {
+    text-align: justify;
+}

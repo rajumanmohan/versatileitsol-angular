@@ -1,0 +1,201 @@
+<!--  banner -->
+<div class="container-fluid">
+	<div class="row contanct-img">
+		<div class="col-sm-12 nopad">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="industries-bnr">
+							<h1>About Us</h1>
+							<h5>We are innovate and provide advanced quality products and
+								exclusive solutions.</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--  ./ banner -->
+<!-- inner content -->
+<!-- about us -->
+<div class="container revealOnScroll" data-animation="fadeInUp">
+	<div class="row mt-5 mb-3">
+		<div class="col-sm-12">
+			<h2 class="header2">About us</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<p>
+				<b>Versatile IT Solutions</b> - Your one stop partner for everything design, technology and marketing.
+			</p>
+			<p>
+				Our rich background lies in earning hard experiences in software development and
+				digital marketing from working with 180+ clients worldwide. We’re a bold thinking company for brands
+				that want to make a real difference, and walk an extra mile to serve a common goal. With us, our
+				workflow will automatically enable you to create high-fidelity technological systems that you can expand
+				to make your business goals come to life
+			</p>
+			<p>With us, you win. With us, your goal is our goal. </p>
+
+			<!-- <h4>We are experts in mobile applications</h4>
+			<p class="expert">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+				type and scrambled it to make a type specimen book</p> -->
+		</div>
+		<div class="col-md-6 col-sm-12 ">
+			<div class="row">
+				<div class="col-sm-12 mission-tabs">
+					<ul>
+						<li (click)="showMisionScreen()"
+							[ngStyle]="{background:showMsion == true ? '#4db848' : '#efefef' , color:showMsion== true ? 'white': 'black' }">
+							Mission
+						</li>
+						<li (click)="showVisionScreen()"
+							[ngStyle]="{background:showVision == true ? '#4db848' : '#efefef',color:showVision==true? 'white': 'black' }">
+							Vision</li>
+						<li (click)="showValuesScreen()"
+							[ngStyle]="{background:showValues == true ? '#4db848' : '#efefef',color:showValues==true? 'white': 'black'  }">
+							Values</li>
+					</ul>
+				</div>
+				<div class="col-sm-12 about-tabs" *ngIf="showMsion">
+					<p>
+						We specialize in building category-defining products through the latest technology built by the
+						best craftsmen you can rely on. We are transparent, simple and nimble- the combination to be
+						your perfect partner.
+					</p>
+				</div>
+				<div class="col-sm-12 about-tabs" *ngIf="showVision">
+					<p>To enable companies with the latest tools and technologies that set them up for global success.
+					</p>
+				</div>
+				<div class="col-sm-12 about-tabs" *ngIf="showValues">
+					<ul>
+						<li>Honesty, to give and deliver the best outcomes always.</li>
+						<li>Empathy, to see things from the other side, the user side.</li>
+						<li>Reliability, to be with companies long term, constantly delivering on promises.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- about us -->
+<!-- our History -->
+<div class="container-fluid our-hostory revealOnScroll" data-animation="fadeInUp">
+	<div class="container">
+		<div class="row pt-5 pb-3">
+			<div class="col-sm-12">
+				<h2 class="header2">Our History</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<button type="button" class="btn btn-arrow-right right-arrow" (click)="show2017Screen()"
+					[ngStyle]="{background:show2017==true? '#4db848': '' , color:show2017==true? '#ffffff': '' }">2012 -
+					2014</button>
+				<button type="button" class="btn btn-arrow-right" (click)="show2018Screen()"
+					[ngStyle]="{background:show2018==true? '#4db848': '' , color:show2018==true? '#ffffff': '' }">2015 -
+					2017</button>
+				<button type="button" class="btn  btn-arrow-right" (click)="show2019Screen()"
+					[ngStyle]="{background:show2019==true? '#4db848': '' , color:show2019==true? '#ffffff': '' }">2018 -
+					Present</button>
+				<br>
+				<div class="row">
+					<div class="col-md-12 " *ngIf="show2017">
+						<p>
+							Starting out is always an adventure and a walk on the wild side! Started in 2012, by 2013,
+							Versatile’s mission was to be the one-stop shop for businesses, startup till large
+							enterprise.
+							We began with the basics, so as to soak our feet in the industry, and month over month, year
+							over year, kept adding to the list of services offered.
+
+						</p>
+						<p>
+							Just as our services grew, so did our employees, obviously. What started off as 5 people, by
+							2014 became 20+ people. We even outgrew our office!
+							This was just phase one in Versatile’s growth story.
+
+						</p>
+					</div>
+					<div class="col-md-12" *ngIf="show2018">
+						<p>
+							Phase two began like a rocket! We were versed with the market and it’s requirements. By 2014
+							we had 40+ stable clients who trusted us with all their tech and marketing needs. For most,
+							we worked end-to-end, solving challenges and boosting their business.
+						</p>
+						<p>
+
+							As of 2017, we are proud to claim we were a team of 50+ people. That’s over an 100% growth!
+							Our team came from all parts of UAE and are the best in field and domain. We hired some
+							amazing people during this time who were multi-faceted and talented- we are proud of our
+							team!
+						</p>
+					</div>
+					<div class="col-md-12" *ngIf="show2019">
+						<p>
+							Since the beginning of 2018, we’ve had many exciting developments at Versatile - from 2012
+							to 2017 till now. The team is now more proficient and efficient than ever!
+							We are looking to continue building relationships and technical strengths with you, our
+							esteemed customers.
+						</p>
+						<p>
+							From a 5 people team with a vision, we are now a team of 70+ working to change the
+							technology space!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 pb-5">
+				<img src="assets/images/our-history.jpg" class="img-fluid" alt="...">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- our History -->
+<!-- our skills -->
+<div class="container pb-5 " data-animation="fadeInUp">
+	<div class="row pt-5 pb-3">
+		<div class="col-sm-12">
+			<h2 class="header2">Our Skills</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<img src="assets/images/skills.jpg" class="img-fluid" alt="...">
+		</div>
+		<div class="col-md-6">
+			<p>
+				We deliver big ideas and bigger results because we believe that we know the industry by pulse. Our USP
+				lies in applying our near-expert knowledge to various verticals, and creating use cases that set the
+				standard for the entire industry.
+			</p>
+			<p>
+				The standard thing to expect from any other experienced company like ours is probably mobile apps,
+				websites, digital marketing etc. But at Versatile IT Solutions, we do more. We let you expect more. Our work
+				starts with consulting with you on what your brand wants to do in the voice that people want to hear it
+				in. Next, we design a collaborative process where everyone is involved and aligned to achieve a common
+				front. Doing this creates an overall experience like no other. Our core focus is building relationships
+				that matter, above all.
+			</p>
+		</div>
+	</div>
+</div>
+<!-- our skills -->
+<!--  inner content -->
+
+<!-- <div class="wrapper request-callback revealOnScroll" data-animation="fadeInUp">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-8">
+				<h2 class="header">Request a call back <img src="assets/images/28.png" class="img-fluid"
+						alt="Request a call back"></h2>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-4">
+				<a href="" class="req_btn">Request Now</a>
+			</div>
+		</div>
+	</div>
+</div> -->

@@ -1,0 +1,43 @@
+.contanct-img img {
+    width: 100%;
+}
+.nopad {
+    padding: 0;
+}
+.contanct-img h1 {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+.contanct-img h1:after {
+    background: #4db848;
+    content: '';
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+
+.privacy-policy h4 {
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 15px 0 30px;
+}
+.privacy-policy p {
+    text-align: justify;
+}
+
+@media (max-width: 767.98px) {
+    .contanct-img img {
+        height: 200px;
+    }
+    .contanct-img h1 {
+        font-size: 24px;
+    }
+}

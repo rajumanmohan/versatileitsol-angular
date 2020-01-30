@@ -1,0 +1,402 @@
+/** heading fonts **/
+/* @font-face {
+    font-family: "poppins";
+    src: url("../../../assets/fonts/poppins/Poppins-ExtraBold.ttf");
+}
+
+h1, h2, h3, h4, h4, h6 {
+    font-family: "poppins";
+}
+
+/** other text font style **/
+/* @font-face {
+    font-family: "muli";
+    src: url("../../../assets/fonts/muli/Muli-Regular.ttf");
+}
+p, a {
+    font-family: "muli"
+}  */
+.captcha-border {
+    border: 1px solid red;
+    padding: 3px 9px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+.contanct-img {
+    background-image: url(/assets/images/banners/contact-banner.jpg);
+    position: relative;
+    height: 400px;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nopad {
+    padding: 0;
+}
+.industries-bnr {
+    color: white;
+    top: 150px;
+    position: absolute;
+}
+.industries-bnr h5 {
+    margin-top: 30px;
+}
+.industries-bnr h1:after {
+    background: #4db848;
+    content: '';
+    top: 50px;
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+.header2:after {
+    background: #4db848;
+    content: '';
+    top: 45px;
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+.header2 {
+    margin-bottom: 40px;
+}
+
+
+
+
+.contanct-img h1:after {
+    background: #4db848;
+    content: '';
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+.cust-contact {
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0px 0px 5px cadetblue;
+    padding: 15px;
+    min-height: 238px;
+    word-break: break-all;
+    margin-bottom: 15px;
+}
+.cust-contact i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.cust-contact a {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cust-contact p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.cust-contact a:hover {
+    color: black;
+    text-decoration: none;
+}
+.cont-form {
+    height: 50px;
+}
+.form-control:focus {
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-cnter {
+    text-align: right;
+}
+
+.cust-sbmt {
+    width: 15%;
+}
+
+a.req_btn {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(#fe000a, #ce050d);
+    border: 1px solid #ffffff;
+    box-shadow: 1px 3px 5px #cccccc;
+    position: absolute;
+    top: 10px;
+}
+.wrapper.request-callback {
+    background: #efefef;
+    box-shadow: 1px 5px 10px #000000;
+    padding: 10px 0;
+}
+.foot-print h3 {
+    letter-spacing: 1px;
+}
+
+@media (max-width: 767.98px) {
+    .contanct-img img {
+        height: 200px;
+    }
+    a.req_btn {
+        position: relative;
+    }
+    .wrapper.request-callback {
+        padding: 20px 0;
+    }
+    .header {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+    .cust-contact {
+        min-height: 270px;
+    }
+ }
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    .cust-contact {
+        min-height: 330px;
+    }
+  }
+
+/** map styles **/
+.ourclientsinglobe {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: auto;
+	height: 8px;
+    background-color: red !important;
+    color: #000000 !important;
+    border-radius: 50%;
+    cursor: pointer;
+	-webkit-animation: ripple1 .7s linear infinite;
+	animation: ripple1 .7s linear infinite
+}
+.mobileappdevebanwrap.countrypg h1 span.countrynm {
+	font-family: Montserrat-Bold;
+	position: relative;
+	font-size: 90px;
+	color: #1384ff;
+	margin-top: 15px;
+	display: block
+}
+
+.mobileappdevebanwrap.countrypg h1 span.countrynm:after {
+	position: absolute;
+	content: '';
+	left: 5px;
+	bottom: -28px;
+	width: 36px;
+	height: 10px;
+    background-color: #1384ff;
+    background-image: url('../../../assets/images/31.png')
+}
+/** map styles **/
+
+.header:after {background:#4db848;top: 50px;content: '';display: block;height: 6px;position: absolute;-webkit-transform: translate(0,0);transform: translate(0,0);width: 70px;}
+
+.captcha-img {
+    width: 30px;
+}
+.cst-captcha {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+/** new map styles **/
+
+.world_map {
+    background: url(/assets/images/new/12.png) no-repeat;
+    height: 550px;
+    background-size: 100%;
+    width: 100%
+}
+
+.chicago,
+.oregan,
+.usa_map {
+    width: 30px;
+    position: absolute;
+    display: block
+}
+.cont_address
+{
+    margin:0 0 0 5px;
+    }
+.cont_address li {
+    height: 45px
+}
+
+.malasia2 {
+    margin-top: 30%;
+    margin-left: 67%;
+    position: absolute;
+    display: block;
+    background: url(/assets/images/new/1234.png) no-repeat;
+    height: 75px
+}
+.india {
+    margin-top: 23%;
+    margin-left: 62%;
+    position: absolute;
+    display: block;
+    background: url(/assets/images/new/1234.png) no-repeat;
+    height: 75px
+    
+}
+.sweden {
+    background: url(/assets/images/new/1234.png) no-repeat;
+    height: 75px;
+    min-width: 30px;
+    display: block;
+    position: absolute;
+    margin-top: -1%;
+    left: 53%;
+}
+.dubai {
+    background: url(/assets/images/new/1234.png) no-repeat;
+    height: 75px;
+    min-width: 30px;
+    margin-top: 13%;
+    margin-left: 54%;
+    position: absolute;
+    display: block
+}
+.us {
+    background: url(/assets/images/new/1234.png) no-repeat;
+    height: 75px;
+    min-width: 30px;
+    margin-top: -1%;
+    margin-left: 13%;
+    position: absolute;
+    display: block
+}
+.add_con {
+    display: none;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -108px;
+    border: 3px solid #22409a;
+    transition: all .5s;
+    font-size: 12px;
+    text-align: left;
+    z-index: 10;
+    min-height: 60px
+}
+.add_con_india{
+    margin-top: -131px!important;
+}
+.add_con_dubai {
+    margin-top: -155px!important;
+}
+.malaysia-con{
+    margin-top: -153px!important;
+}
+.home-sec .add_con h2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    background: #22409a;
+    line-height:100px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+    right: 0;
+    font-size: 20px;
+    margin: -20px -30px 0 0
+}
+.spot:hover~.add_con {
+    width: 300px;
+    display: block;
+    transition: all .5s
+}
+.spot {
+    width: 30px;
+    height: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+.cont_address {
+    list-style: none
+}
+
+@media (max-width:767px) 
+{
+    .world_map {
+        height: 400px;
+        background: url(../../../assets/images/new/123.png) no-repeat;
+        background-size: 100%;
+        width: 100%
+    }
+    .world_map>ul {
+        display: none
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .india {
+        margin-top: 17%;
+        margin-left: 58%;
+    }
+    .malasia2 {
+        margin-top: 27%;
+        margin-left: 63%;
+    }
+    .dubai {
+        margin-top: 3%;
+        margin-left: 49%;
+    }
+    .sweden {
+        margin-top: -8%;
+        left: 52%;
+    }
+    .us {
+        margin-top: -12%;
+        margin-left: 9%;
+    }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .india {
+        margin-top: 21%;
+        margin-left: 61%;
+    }
+    .malasia2 {
+        margin-top: 29%;
+        margin-left: 66%;
+    }
+    .dubai {
+        margin-top: 10%;
+        margin-left: 52%;
+    }
+    .sweden {
+        margin-top: -3%;
+        left: 52%;
+    }
+    .us {
+        margin-top: -4%;
+        margin-left: 12%;
+    }
+  }
+
+/** new map ends **/
+
+
+

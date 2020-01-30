@@ -1,0 +1,215 @@
+<!--  banner -->
+<div class="container-fluid">
+  <div class="row contanct-img">
+    <div class="col-sm-12 nopad">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="industries-bnr">
+              <h1>Contact Us</h1>
+              <h5>We are innovate and provide advanced quality products and exclusive solutions.</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  ./ banner -->
+
+<!-- <div class="container">
+  <div class="row mt-5">
+    <div class="col-sm-12">
+      <div class="foot-print">
+        <h2 class="header2">Our Footprint</h2>
+      </div>
+      <div id="chartdiv" [style.width.%]="100" [style.height.px]="500"></div>
+    </div>
+  </div>
+</div>  -->
+
+<div class="home-sec contact-cont">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="foot-print">
+          <h2 class="header2">Our Footprint</h2>
+        </div>
+        <div class="world_map">
+          <ul class="cont_address">
+            <li class="">
+              <div class="add_div malasia2"><span class="spot"></span>
+                <div class="add_con malaysia-con">
+                  <h2>Malaysia</h2>Unit 1-3B,Incubator 3,
+                  <br />Technology Park Malaysia,<br /> Bukit Jalil 57000,
+                  <br />Kuala Lumpur, Malaysia
+                  <br />Ph : +60-389940999
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="add_div india"><span class="spot"></span>
+                <div class="add_con add_con_india">
+                  <h2>India</h2>3rd Floor,Unispace Business Center,
+                  <br />Kondapur, Hyderabad<br />
+                  500032.
+                  <br />Ph : +9140-4261 2022
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="add_div sweden"><span class="spot"></span>
+                <div class="add_con">
+                  <h2>Sweden</h2>
+                  Kungsgatan 37,
+                  <br />111 56 Stockholm
+                  <br />Ph : +46 73 448 13 08
+
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="add_div dubai"><span class="spot"></span>
+                <div class="add_con add_con_dubai">
+                  <h2>Dubai</h2>
+                  Office No 1403, 14th Floor,<br />
+                  City Towers 2 ,Biz City Business Centre<br /> Sheikh Zayed Road,<br />Dubai
+                  U.A.E
+                  <br />Ph : +971 54 786 2682
+                </div>
+              </div>
+            </li>
+            <li class="">
+              <div class="add_div us"><span class="spot"></span>
+                <div class="add_con">
+                  <h2>US </h2>
+                  13607 Fernbrook Ct,
+                  <br />
+                  Centreville VA 20120.<br />
+                  Ph : +1 315-863-9806
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- inner content -->
+<div class="container">
+  <div class="row mt-5 mb-5">
+    <div class="col-sm-12">
+      <h2 class="header2">Contact Details</h2>
+    </div>
+  </div>
+  <div class="row mb-5">
+    <div class="col-sm-4">
+      <div class="cust-contact">
+        <i class="fa fa-phone-square"></i> <br>
+        <a href="tel:+971 54 786 2682" title="Call us at +971 54 786 2682">+971 54 786 2682</a><br>
+        <a href="tel:+971 4 336 6732/33" title="Call us at+971 4 336 6732/33">+971 4 336 6732/33</a>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="cust-contact">
+        <i class="fa fa-envelope"></i> <br>
+        <a href="mailto:info@versatileitsol.com" title="Mail us at info@versatileitsol.com">info@versatileitsol.com</a>
+        <br>
+        <!-- <a href="mailto:hr@versatilemobitech.com"
+          title="Mail us at hr@versatilemobitech.com">hr@versatilemobitech.com</a> -->
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="cust-contact">
+        <i class="fa fa-map-marker" aria-hidden="true"></i> <br>
+        <p>Versatile IT Solutions LLC,
+          Office No: 1403, 14th Floor, City Towers 2,
+          Biz City Business Centre,
+          Sheikh Zayed Road, Dubai, U.A.E
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-sm-12">
+      <div class="revealOnScroll" data-animation="fadeInUp">
+        <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control cont-form" placeholder="Name" formControlName="name"
+                [ngClass]="{ 'is-invalid': submitted && f.name.errors }" name="name"
+                [ngModelOptions]="{standalone: true}">
+              <div *ngIf="submitted && f.name.errors" class="invalid-feedback">
+                <div *ngIf="f.name.errors.required">Name is required</div>
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control cont-form" placeholder="Email" formControlName="email"
+                [ngClass]="{ 'is-invalid': submitted && f.email.errors }" name="email"
+                [ngModelOptions]="{standalone: true}">
+              <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                <div *ngIf="f.email.errors.required">Email is required</div>
+                <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="tel" class="form-control cont-form" placeholder="Phone" formControlName="phone_number"
+                [ngClass]="{ 'is-invalid': submitted && f.phone_number.errors }" name="phone_number"
+                [ngModelOptions]="{standalone: true}" myNumberOnly maxlength="12">
+              <div *ngIf="submitted && f.phone_number.errors" class="invalid-feedback">
+                <div *ngIf="f.phone_number.errors.required">Mobile Number is required</div>
+                <div *ngIf="f.phone_number.errors.minlength">Mobile Number must be at least 10 characters</div>
+              </div>
+            </div>
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control cont-form" placeholder="Subject" formControlName="subject"
+                [ngClass]="{ 'is-invalid': submitted && f.subject.errors }" name="Subject"
+                [ngModelOptions]="{standalone: true}">
+              <div *ngIf="submitted && f.subject.errors" class="invalid-feedback">
+                <div *ngIf="f.subject.errors.required">Subject is required</div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" placeholder="Message" [ngModelOptions]="{standalone: true}"
+              formControlName="message" [ngClass]="{ 'is-invalid': submitted && f.message.errors }" name="message"
+              rows="6"></textarea>
+            <div *ngIf="submitted && f.message.errors" class="invalid-feedback">
+              <div *ngIf="f.message.errors.required">Message is required</div>
+            </div>
+
+          </div>
+          <!-- capcha -->
+          <div class="row mt-3">
+            <div class="col-sm-12">
+              <div class="cst-captcha">
+                <div class="p-2">
+                  <input type="text" name="text" class="form-control input-field" placeholder="Enter Captcha"
+                    [(ngModel)]="captchaValue" name="captchaValue" [ngModelOptions]="{standalone: true}">
+                  <label *ngIf="showCaptchaer" class="text-danger" style="font-size:14px;">Incorrect
+                    Captcha,
+                    please try again</label>
+                </div>
+                <div class="p-2">
+                  <div class="captcha-border">
+                    <span id="captcha">{{captchaTExt}}</span> &nbsp; <img src="assets/images/refresh.png"
+                      (click)="refreshCaptcha()" class="captcha-img">
+                  </div>
+                </div>
+                <div class="p-2 btn-cnter">
+                  <button type="submit" class="btn btn-success">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ./inner content -->

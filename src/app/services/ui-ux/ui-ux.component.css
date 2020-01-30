@@ -1,0 +1,1171 @@
+/** App Development skills **/
+.app_development_strategies {
+	position: relative;
+	padding: 100px
+}
+.desktop-display{
+	display:block;
+}
+.mobile-display{
+	display:none;
+}
+.anddroid-app h2 {
+	margin-bottom: 40px;
+}
+.app_development_strategies .ltl {
+	position: absolute;
+	left: 80px;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	background-color: #f3f3f3
+}
+.app_development_strategies .ltl.rtl {
+	left: auto;
+	right: 80px
+}
+.app_development_strategies .ltl .clrline {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1px;
+	height: 100px;
+	background-color: #99a7ff
+}
+.app_development_strategies .ltl.rtl .clrline {
+	background-color: #ed9797
+}
+.app_development_strategies .ltl .clrline.top16H {
+	top: 16%;
+	background-color: #99ffef
+}
+.app_development_strategies .ltl.rtl .clrline.top16H {
+	background-color: #8adfff
+}
+.app_development_strategies .ltl .clrline.top32H {
+	top: 32%;
+	background-color: #c9f
+}
+.app_development_strategies .ltl.rtl .clrline.top32H {
+	background-color: #8aa8ff
+}
+.app_development_strategies .ltl .clrline.top48H {
+	top: 48%;
+	background-color: #e699ff
+}
+.app_development_strategies .ltl .clrline.top64H {
+	top: 64%;
+	background-color: #f9bde3
+}
+.app_development_strategies .ltl.rtl .clrline.top64H {
+	background-color: #8afffe
+}
+.app_development_strategies .ltl .clrline.top80H {
+	top: 80%;
+	background-color: #8a8dff
+}
+.app_development_strategies .ltl.rtl .clrline.top80H {
+	background-color: #ffb68a
+}
+.app_development_strategies .mainheadingrows {
+	color: #46a7ff;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase
+}
+.app_development_strategies .mainheadingrows.capitalize {
+	text-transform: inherit
+}
+.app_development_strategies .subheadingrows {
+	color: #46a7ff;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding-top: 15px;
+	margin-bottom: 15px
+}
+.app_development_strategies .subheadingrows span {
+	display: block
+}
+.webdev img {
+    width: 100%;
+}
+
+.app_development_strategies .appStrategiesCon {
+	position: relative;
+	padding: 100px 100px 0 100px;
+	max-width: 1200px;
+	margin: auto
+}
+.appStrategiesCon .ltl {
+	position: absolute;
+	left: 0;
+	top: 25%;
+	bottom: 25%;
+	width: 1px;
+	background-color: #f3f3f3
+}
+.appStrategiesCon .ltl.rtl {
+	left: auto;
+	right: 0
+}
+.appStrategiesCon .ltl .clrline {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1px;
+	height: 50px;
+	background-color: #ff8a8a
+}
+.appStrategiesCon .ltl.rtl .clrline {
+	height: 100px;
+	background-color: #ff8a8a
+}
+.appStrategiesCon .ltl .clrline.top50H {
+	top: 50%;
+	height: 80px;
+	background-color: #ffcc8a
+}
+.appStrategiesCon .ltl.rtl .clrline.top50H {
+	top: 36%;
+	height: 120px;
+	background-color: #b68aff
+}
+.appStrategiesCon .ltl .clrline.top100H {
+	top: auto;
+	bottom: 0;
+	height: 70px;
+	background-color: #8ab6ff
+}
+.appStrategiesCon .ltl.rtl .clrline.top100H {
+	top: auto;
+	bottom: 50px;
+	height: 140px;
+	background-color: #8afff3
+}
+.appStrategiesCon .appStrow {
+	padding-bottom: 30px
+}
+.appStrategiesCon .appStrow.firstrw {
+	padding-bottom: 0
+}
+.appStrategiesCon .appStrow.secrw {
+	padding-bottom: 36px
+}
+.appStrategiesCon .appStrow.fourth .headingrws,
+.appStrategiesCon .appStrow.secrw .headingrws {
+	text-align: right
+}
+.appStrategiesCon .appStrow.thirdrw {
+	padding-bottom: 35px
+}
+.appStrategiesCon .appStrow .iosappoption {
+	float: left;
+	max-width: 370px;
+	display: inline-block
+}
+.appStrategiesCon .appStrow .iosappoption.research_design {
+	width: 350px;
+	padding-top: 25px
+}
+.app_development_strategies.nodejs .appStrategiesCon .appStrow.firstrw {
+	padding-bottom: 40px
+}
+.app_development_strategies.nodejs .appStrategiesCon .appStrow.secrw {
+	padding-bottom: 0
+}
+.appStrategiesCon .appStrow .iosappoption.testingdiv {
+	padding-top: 10px
+}
+.appStrategiesCon .appStrow .iosappoption.launch {
+	padding-top: 30px
+}
+.appStrategiesCon .appStrow .iosappoption.appdevelopment {
+	padding-top: 40px
+}
+.appStrategiesCon .appStrow .iosappoption.appConcept {
+	padding-top: 20px
+}
+.appStrategiesCon .appStrow .iosappoption.afterapp {
+	padding-top: 30px
+}
+.app_development_strategies.android .appStrategiesCon .appStrow.firstrw {
+	padding-bottom: 15px
+}
+.app_development_strategies.android .appStrategiesCon .appStrow.thirdrw {
+	padding-bottom: 5px
+}
+.appStrategiesCon .appStrow .iosappoption ul {
+	margin: 0;
+	padding: 0
+}
+.appStrategiesCon .appStrow .iosappoption ul li {
+	position: relative;
+	font-size: 18px;
+	color: #000000;
+	line-height: 36px;
+	list-style: none;
+	padding-bottom: 40px
+}
+.appStrategiesCon .appStrow .iosappoption ul li span {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	width: 24px;
+	height: 24px;
+	border: 5px solid #ff888d;
+	border-radius: 50%;
+	display: inline-block
+}
+.appStrategiesCon .appStrow .iosappoption ul li+li span {
+	border: 5px solid #ffcf8a
+}
+.appStrategiesCon .appStrow .iosappoption ul li+li+li span {
+	border: 5px solid #8ad4ff
+}
+.appStrategiesCon .appStrow .iosappoption ul.leftOpt li {
+	padding-right: 40px;
+	text-align: right
+}
+.appStrategiesCon .appStrow .iosappoption ul.rightOpt li {
+	padding-left: 40px;
+	text-align: left
+}
+.appStrategiesCon .appStrow .iosappoption ul.leftOpt li span {
+	left: auto;
+	right: 0
+}
+.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul li span {
+	top: 50%;
+	margin-top: -20px
+}
+.appStrategiesCon .appStrow .headingrws {
+	float: left;
+	width: 355px;
+	font-size: 24px;
+	color: #000;
+	line-height: 256px;
+	display: inline-block;
+	font-family: 'Poppins-SemiBold', sans-serif;
+}
+.appStrategiesCon .appStrow .headingrws.moreword {
+	margin-top: 90px;
+	line-height: 32px
+}
+.appStrategiesCon .appStrow .halfCirclebox {
+	position: relative;
+	float: left;
+	width: 256px;
+	height: 256px;
+	display: inline-block;
+	margin: 0 20px
+}
+.appStrategiesCon .appStrow .halfCircle {
+	width: 256px;
+	height: 256px;
+	background-color: transparent
+}
+.appStrategiesCon .appStrow .lefthalfCircle {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	width: 128px;
+	height: 256px;
+	background: url(../../../assets/images/half_circle_spin1.gif) no-repeat;
+	background-size: 100% 100%;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+	display: none
+}
+.appStrategiesCon .appStrow .lefthalfCircle1 {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	width: 128px;
+	height: 256px;
+	background: url(../../../assets/images/half_circle_spin1.gif) no-repeat;
+	background-size: 100% 100%;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+	display: none
+}
+.appStrategiesCon .appStrow.aos-animate .lefthalfCircle,
+.appStrategiesCon .appStrow.aos-animate .lefthalfCircle1 {
+	display: block
+}
+.appStrategiesCon .appStrow .righthalfCircle {
+	position: absolute;
+	left: 20px;
+	top: 0;
+	width: 128px;
+	height: 256px;
+	background: url(../../../assets/images/lefthalf_circle_spin1.gif) no-repeat;
+	background-size: 100% 100%;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+	display: none
+}
+.appStrategiesCon .appStrow .righthalfCircle1 {
+	position: absolute;
+	left: 20px;
+	top: 0;
+	width: 128px;
+	height: 256px;
+	background: url(../../../assets/images/lefthalf_circle_spin1.gif) no-repeat;
+	background-size: 100% 100%;
+	-webkit-transition: all .4s linear;
+	transition: all .4s linear;
+	display: none
+}
+.appStrategiesCon .appStrow.aos-animate .righthalfCircle,
+.appStrategiesCon .appStrow.aos-animate .righthalfCircle1 {
+	display: block
+}
+.blockchainhelpiconbx.augmented .appStrategiesCon .appStrow .iosappoption ul li span {
+	top: 50%;
+	margin-top: -20px
+}
+.ar_plateform_heading {
+	font-size: 36px;
+	color: #000;
+	text-align: center;
+	padding-top: 50px;
+	text-transform: uppercase
+}
+.ar_plateform_heading span {
+	display: block
+}
+.app_development_strategies.augmented {
+	padding-top: 40px;
+	margin-bottom: 100px
+}
+.appStrategiesCon .appStrow .iosappoption ul li.arkit span {
+	border: 5px solid #ffcf8a
+}
+.appStrategiesCon .appStrow .iosappoption ul li.arcore span {
+	border: 5px solid #8ad4ff
+}
+.appStrategiesCon .appStrow .iosappoption ul li.vuforia span {
+	border: 5px solid #ff888d
+}
+.appStrategiesCon .appStrow .iosappoption ul li.metaio span {
+	border: 5px solid #1fdde4
+}
+.app_development_strategies.augmented .appStrategiesCon .appStrow.firstrw {
+	padding-bottom: 36px
+}
+.appStrategiesCon .appStrow .iosappoption ul li.arkit {
+	padding-top: 30px
+}
+.appStrategiesCon .appStrow .iosappoption ul li.arcore {
+	padding-top: 15px
+}
+.appStrategiesCon .appStrow .iosappoption ul li.vuforia {
+	padding-top: 40px
+}
+.appStrategiesCon .appStrow .iosappoption ul li.metaio {
+	padding-top: 25px
+}
+#numberbx,
+#numberbx1,
+#numberbx2,
+#numberbx3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 80px;
+	height: 80px;
+	margin: -40px 0 0 -40px;
+	-webkit-animation: colors 1s infinite;
+	animation: colors 1s infinite;
+	z-index: 1
+}
+#numberbx .numbx,
+#numberbx1 .numbx,
+#numberbx2 .numbx,
+#numberbx3 .numbx {
+	position: absolute;
+	width: 56px;
+	height: 56px;
+	left: 50%;
+	top: 50%;
+	font-size: 36px;
+	color: #e1e1e1;
+	text-align: center;
+	line-height: 56px;
+	margin: -28px 0 0 -28px;
+	border-radius: 50%;
+	background-color: #fff
+}
+.blcdvelopemtrow .blcdevCon .numbx {
+	position: absolute;
+	left: -60px;
+	top: -60px;
+	font-size: 400px;
+	line-height: 300px;
+	color: #f8f8f8;
+	z-index: -1
+}
+.technologiesbox .technobox.secrw {
+	background: #a3e0f4;
+	background: -webkit-linear-gradient(top, #a3e0f4 0, #b5e6f6 100%);
+	background: linear-gradient(to bottom, #a3e0f4 0, #b5e6f6 100%)
+}
+
+.halfclipCircle {
+	width: 50%;
+	height: 100%;
+	right: 0;
+	position: absolute;
+	overflow: hidden;
+	-webkit-transform-origin: left center;
+	transform-origin: left center;
+	animation: cliprotate 4s steps(2) infinite;
+	-webkit-animation: cliprotate 4s steps(2) infinite
+}
+.halfcircle {
+	box-sizing: border-box;
+	height: 100%;
+	right: 0;
+	position: absolute;
+	border: solid 10px transparent;
+	border-top-color: #e1e1e1;
+	border-left-color: #e1e1e1;
+	border-radius: 50%
+}
+.clippedCircle {
+	width: 200%;
+	animation: rotate 2s linear infinite;
+	-webkit-animation: rotate 2s linear infinite
+}
+.fixedCircle {
+	width: 100%;
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	animation: showfixed 4s steps(2) infinite;
+	-webkit-animation: showfixed 4s linear infinite
+}
+@-webkit-keyframes cliprotate {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+@keyframes cliprotate {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+	
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+}
+@-webkit-keyframes rotate {
+	0% {
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg)
+	}
+	
+	100% {
+		-webkit-transform: rotate(135deg);
+		transform: rotate(135deg)
+	}
+}
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg)
+	}
+	
+	100% {
+		-webkit-transform: rotate(135deg);
+		transform: rotate(135deg)
+	}
+}
+@-webkit-keyframes showfixed {
+	0% {
+		opacity: 0
+	}
+	
+	49.9% {
+		opacity: 0
+	}
+	
+	50% {
+		opacity: 1
+	}
+	
+	100% {
+		opacity: 1
+	}
+}
+
+@media only screen and (max-width: 1800px) {
+	.app_development_strategies {
+		padding: 60px
+	}
+	.app_development_strategies .ltl {
+		left: 60px
+	}
+	.app_development_strategies .ltl.rtl {
+		right: 60px
+	}
+	.app_development_strategies .appStrategiesCon {
+		padding: 80px 80px 0 80px
+	}
+}
+
+
+@media only screen and (max-width: 1220px) {
+
+	.app_development_strategies {
+		padding: 40px 20px
+	}
+	.app_development_strategies .ltl {
+		left: 24px
+	}
+	.app_development_strategies .ltl.rtl {
+		right: 24px;
+		padding: 50px 20px 20px 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 1170px) {
+	.app_development_strategies .appStrategiesCon {
+		max-width: 980px;
+		padding: 60px 40px 0 40px
+	}
+	.appStrategiesCon .appStrow .iosappoption {
+		max-width: 330px
+	}
+	.appStrategiesCon .appStrow .halfCircle,
+	.appStrategiesCon .appStrow .halfCirclebox {
+		width: 200px;
+		height: 200px
+	}
+	.appStrategiesCon .appStrow .lefthalfCircle,
+	.appStrategiesCon .appStrow .lefthalfCircle1,
+	.appStrategiesCon .appStrow .righthalfCircle,
+	.appStrategiesCon .appStrow .righthalfCircle1 {
+		width: 100px;
+		height: 200px
+	}
+	.appStrategiesCon .appStrow .headingrws {
+		width: 280px;
+		font-size: 16px;
+		line-height: 200px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li {
+		padding-bottom: 20px
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.app_development_strategies .mainheadingrows {
+		font-size: 30px;
+		line-height: 40px
+	}
+	.app_development_strategies .subheadingrows {
+		font-size: 24px;
+		line-height: 24px;
+		padding-top: 5px
+	}
+	.app_development_strategies .subheadingrows.pdlr {
+		padding: 0 15px;
+		padding-top: 5px
+	}
+	.app_development_strategies .appStrategiesCon {
+		max-width: 840px;
+		padding: 40px 20px 0 20px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul li.arkit span {
+		margin-top: -8px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul li.vuforia span {
+		margin-top: -5px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul li.metaio span {
+		margin-top: -14px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow.secrw {
+		padding-bottom: 20px
+	}
+	.app_development_strategies .ltl.leftalign {
+		left: -5px;
+	}
+	.app_development_strategies .ltl.rightalign {
+		right: -5px;
+	}
+	.appStrategiesCon .appStrow .iosappoption {
+		max-width: 320px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li {
+		font-size: 14px;
+		line-height: 28px;
+		padding-bottom: 10px;
+	}
+	.appStrategiesCon .appStrow .halfCircle,
+	.appStrategiesCon .appStrow .halfCirclebox {
+		width: 160px;
+		height: 160px;
+	}
+	.appStrategiesCon .appStrow .lefthalfCircle,
+	.appStrategiesCon .appStrow .lefthalfCircle1,
+	.appStrategiesCon .appStrow .righthalfCircle,
+	.appStrategiesCon .appStrow .righthalfCircle1 {
+		width: 80px;
+		height: 160px;
+	}
+	.appStrategiesCon .appStrow .iosappoption {
+		max-width: 230px
+	}
+	.appStrategiesCon .appStrow .headingrws {
+		position: absolute;
+		width: auto;
+		left: 0;
+		margin-top: -40px;
+		right: 0;
+		line-height: normal;
+		text-align: center;
+	}
+	.appStrategiesCon .appStrow {
+		padding-top: 25px;
+		padding-bottom: 50px!important
+	}
+	.appStrategiesCon .appStrow .row {
+		display: table;
+		margin: auto;
+	}
+	.appStrategiesCon .appStrow.fourth .headingrws,
+	.appStrategiesCon .appStrow.secrw .headingrws {
+		text-align: center;
+	}
+	
+	.whyiossection.androidApp .iosdetailsbx {
+		padding-top: 10px;
+	}
+	.appStrategiesCon .appStrow .headingrws.moreword {
+		margin-top: -40px;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.ux-design {
+	    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+	}
+.desktop-display{
+	display:none;
+}
+.mobile-display{
+	display:block;
+}
+}
+@media only screen and (max-width: 839px) {
+	.app_development_strategies .appStrategiesCon {
+		max-width: 740px;
+	}
+	.app_development_strategies .appStrategiesCon .ltl,
+	.app_development_strategies .appStrategiesCon .ltl.rtl {
+		display: none
+	}
+	.appStrategiesCon .appStrow .iosappoption {
+		max-width: 270px
+	}
+	.appStrategiesCon .appStrow .headingrws {
+		width: 220px
+	}
+	.appStrategiesCon .appStrow .iosappoption.analysis {
+		padding-top: 0
+	}
+	.appStrategiesCon .appStrow .iosappoption.algorithms {
+		padding-top: 0
+	}
+	.appStrategiesCon .appStrow .iosappoption.testingdiv {
+		padding-top: 0
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.app_development_strategies {
+		padding: 40px 15px;
+		padding-bottom: 0
+	}
+	#numberbx, #numberbx1, #numberbx2, #numberbx3 {
+		margin: -40px 0 0 -50px;
+	}
+	.app_development_strategies .appStrategiesCon {
+		max-width: 480px;
+		padding: 20px 0 0 0
+	}
+	.advantages_iphone h3,
+	.app_development_strategies .subheadingrows,
+	.ionicframeworkhelp h3,
+	.reconizationbx.hireionicdev h4,
+	.techugo_revolutionize.iphonebx .subheadingbx,
+	.techugo_revolutionize.nodejsbox .subheadingbx {
+		font-size: 20px;
+		line-height: 20px
+	}
+	.app_development_strategies .mainheadingrows {
+		font-size: 24px;
+		line-height: 34px
+	}
+	.app_development_strategies .ltl,
+	.app_development_strategies .ltl.rtl {
+		display: none
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .halfCircle,
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .halfCirclebox {
+		margin-top: 15px
+	}
+	.app_development_strategies .subheadingrows span {
+		display: inline-block
+	}
+	.app_development_strategies .subheadingrows.pdlr {
+		font-size: 18px;
+		line-height: 28px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul.leftOpt li {
+		text-align: justify;
+		-moz-text-align-last: right;
+		text-align-last: right
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul.rightOpt li {
+		text-align: justify;
+		-moz-text-align-last: left;
+		text-align-last: left
+	}
+	.appStrategiesCon .appStrow .iosappoption.afterapp,
+	.appStrategiesCon .appStrow .iosappoption.appdevelopment {
+		padding-top: 10px
+	}
+	.appStrategiesCon .appStrow .iosappoption.appproject,
+	.appStrategiesCon .appStrow .iosappoption.qatesting {
+		padding-top: 0
+	}
+	.appStrategiesCon .appStrow .iosappoption.support {
+		padding-top: 10px
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	#numberbx .numbx, #numberbx1 .numbx, #numberbx2 .numbx, #numberbx3 .numbx {
+	
+		font-size: 13px;
+	}	
+	.app_development_strategies .appStrategiesCon {
+		max-width: 400px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul li span {
+		top: 50%
+	}
+	.app_development_strategies.augmented {
+		margin-bottom: 20px
+	}
+	.app_development_strategies.augmented {
+		padding-top: 15px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-bottom: 0
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul.leftOpt li {
+		padding-right: 0;
+		letter-spacing: -.4px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul.rightOpt li {
+		padding-left: 0;
+		margin-left: -10px;
+		letter-spacing: -.4px
+	}
+	.app_development_strategies .subheadingrows.pdlr {
+		font-size: 16px;
+		line-height: 24px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul li span {
+		display: none
+	}
+	.appStrategiesCon .appStrow .iosappoption {
+		max-width: 200px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li {
+		line-height: 24px;
+		padding-bottom: 6px
+	}
+	.appStrategiesCon .appStrow .halfCircle,
+	.appStrategiesCon .appStrow .halfCirclebox {
+		width: 120px;
+		height: 120px;
+		margin-top: 20px
+	}
+	.appStrategiesCon .appStrow .lefthalfCircle,
+	.appStrategiesCon .appStrow .lefthalfCircle1,
+	.appStrategiesCon .appStrow .righthalfCircle,
+	.appStrategiesCon .appStrow .righthalfCircle1 {
+		width: 60px;
+		height: 120px
+	}
+	.appStrategiesCon .appStrow .righthalfCircle,
+	.appStrategiesCon .appStrow .righthalfCircle1 {
+		left: 0
+	}
+	.appStrategiesCon .appStrow .iosappoption ul.leftOpt li {
+		padding-right: 30px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li span {
+		width: 18px;
+		height: 18px;
+		top: 4px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li.vuforia {
+		padding-top: 0
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	.app_development_strategies.android .appStrategiesCon .appStrow.thirdrw {
+		padding-top: 60px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li.arkit span {
+		margin-top: -12px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li.arcore span {
+		margin-top: -40px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li.vuforia span {
+		margin-top: -10px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li.metaio span {
+		margin-top: -50px
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	.appStrategiesCon .appStrow .iosappoption ul li.arkit span {
+		margin-top: -40px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li.arcore span {
+		margin-top: -72px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li.vuforia span {
+		margin-top: -20px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li.metaio span {
+		margin-top: -84px
+	}
+	.app_development_strategies .appStrategiesCon {
+		max-width: 360px
+	}
+	.appStrategiesCon .appStrow .iosappoption {
+		max-width: 180px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption {
+		max-width: 190px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li {
+		line-height: 22px;
+		padding-bottom: 5px
+	}
+	.appStrategiesCon .appStrow .halfCircle,
+	.appStrategiesCon .appStrow .halfCirclebox {
+		width: 100px;
+		height: 100px
+	}
+	.appStrategiesCon .appStrow .lefthalfCircle,
+	.appStrategiesCon .appStrow .lefthalfCircle1,
+	.appStrategiesCon .appStrow .righthalfCircle,
+	.appStrategiesCon .appStrow .righthalfCircle1 {
+		width: 50px;
+		height: 100px
+	}
+	.appStrategiesCon .appStrow .lefthalfCircle,
+	.appStrategiesCon .appStrow .lefthalfCircle1 {
+		right: 12px
+	}
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	.app_development_strategies .appStrategiesCon {
+		max-width: 320px
+	}
+	.appStrategiesCon .appStrow .iosappoption {
+		max-width: 150px
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption {
+		max-width: 170px
+	}
+	.appStrategiesCon .appStrow .iosappoption ul li {
+		line-height: 20px
+	}
+	.appStrategiesCon .appStrow .halfCircle,
+	.appStrategiesCon .appStrow .halfCirclebox {
+		width: 80px;
+		height: 80px
+	}
+	.appStrategiesCon .appStrow .lefthalfCircle,
+	.appStrategiesCon .appStrow .lefthalfCircle1,
+	.appStrategiesCon .appStrow .righthalfCircle,
+	.appStrategiesCon .appStrow .righthalfCircle1 {
+		width: 40px;
+		height: 80px
+	}
+	.appStrategiesCon .appStrow .lefthalfCircle,
+	.appStrategiesCon .appStrow .lefthalfCircle1 {
+		right: 12px
+	}
+	
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul li span {
+		display: none
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul.leftOpt li {
+		padding-right: 0
+	}
+	.app_development_strategies.augmented .appStrategiesCon .appStrow .iosappoption ul.rightOpt li {
+		padding-left: 0;
+		letter-spacing: -.6px
+	}
+	.app_development_strategies.augmented {
+		padding: 20px 15px;
+		padding-bottom: 0
+	}
+	#numberbx,
+	#numberbx1,
+	#numberbx2,
+	#numberbx3 {
+		width: 50px;
+		height: 50px;
+		margin: -25px 0 0 -32px
+	}
+	.mobileappdevebanwrap.iosdevlopment.chatbots .iostheame {
+		font-size: 50px
+	}
+	.small_circle_design.leftpossm {
+		left: 30px
+	}
+	.app_development_strategies.android .appStrategiesCon .appStrow .iosappoption.afterapp {
+		padding-top: 25px
+	}
+	.appStrategiesCon .appStrow .halfCirclebox.toppad {
+		margin-top: 35px
+	}
+}
+/** ./ App Development skills **/
+
+.soci-icon img {
+	margin-right: 30px;
+}
+.cst-top2 {
+    margin-top: 6rem;
+}
+.mob-appln {
+	margin-top: 30px;
+}
+.mob-appln p {
+	text-align: justify;
+}
+.sml-img {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    right: 15px;
+}
+.big-img {
+	z-index: 2;
+}
+
+/** ripple effect **/
+.circle-ripple {
+	background-color: #ababab;
+	width: 20em;
+	height: 20em;
+	position: absolute;
+	right: 0;
+	top: 70px;
+	border-radius: 50%;
+	animation: ripple 1.5s linear infinite;
+  }
+  @keyframes ripple {
+	0% {
+	  box-shadow: 0 0 0 0 rgba(128,128,128, 0.3), 0 0 0 1em rgba(128,128,128, 0.3), 0 0 0 3em rgba(128,128,128, 0.3), 0 0 0 5em rgba(128,128,128, 0.3);
+	}
+	100% {
+	  box-shadow: 0 0 0 1em rgba(128,128,128, 0.3), 0 0 0 3em rgba(128,128,128, 0.3), 0 0 0 5em rgba(128,128,128, 0.3), 0 0 0 8em rgba(128,128,128, 0);
+	}
+  }
+  /* @keyframes ripple {
+	from {
+	  opacity: 1;
+	  transform: scale3d(0.75,0.75,1);
+	}
+	
+	to {
+	  opacity: 0;
+	  transform: scale3d(1.5,1.5,1);
+	}
+  } */
+/** ./ripple effect **/
+
+.no-pad {
+	padding: 0;
+}
+.no-pad img {
+	width: 100%;
+}
+.nopad2 {
+	padding: 0;
+}
+.nopad2 img {
+	width: 100%;
+}
+.mar-tp {
+	margin-top: 100px;
+}
+.anddroid-app p {
+	text-align: justify;
+}
+.anddroid-app {
+	margin-top: 40px;
+}
+.dev-skills {
+	text-align: center;
+}
+.dev-skills h4 {
+	font-size: 44px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 399.98px) { 
+	.big-img {
+		width: 170px !important;
+	}
+	.sml-img {
+		width: 120px !important;
+	}
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+	.big-img {
+		width: 110px !important;  
+	}
+	.sml-img {
+		width: 110px !important;
+		bottom: unset;
+    }
+    .webdev img {
+        width: 100% !important;
+    }
+  }
+
+@media (max-width: 767.98px) {
+	.big-img {
+		width: 200px;
+	}
+	.sml-img {
+		width: 150px;
+	}
+	.dev-skills h4 {
+		font-size: 20px;
+	}
+	.header {
+		font-size: 18px;
+	}
+	a.req_btn {
+		position: relative !important;
+	}
+	.wrapper.request-callback {
+		padding: 20px 0 !important
+    }
+    .webdev img {
+        bottom: auto;
+        position: relative;
+    }
+    .mar-tp {
+        /* margin-top: 300px; */
+    }
+    .soci-icon img {
+        width: 60px;
+        margin-right: 25px;
+	}
+	.bg-txt {
+		width: 90% !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.big-img {
+		width: 150px;
+	}
+	.sml-img {
+		width: 150px;
+		bottom: unset;
+    }
+    .webdev img {
+        position: relative;
+        width: 100%;
+        margin-top: 150px;
+    }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+	.big-img {
+		width: 220px;
+	}
+	.sml-img {
+		width: 190px;
+		position: relative;
+    }
+    .webdev img {
+        position: relative;
+        width: 100%;
+        margin-top: 150px;
+    }
+  }
+
+  .wrapper.request-callback {
+    background: #efefef;
+    box-shadow: 1px 5px 10px #000000;
+    padding: 10px 0;
+ }
+
+ .header:after {background:#4db848;top: 50px;content: '';display: block;height: 6px;position: absolute;-webkit-transform: translate(0,0);transform: translate(0,0);width: 70px;}
+  a.req_btn {
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(#fe000a, #ce050d);
+    border: 1px solid #ffffff;
+	box-shadow: 1px 3px 5px #cccccc;
+	position: absolute;
+	top: 10px;
+}
+.anddroid-app h2::after{
+	background: #4db848;
+	content: '';
+	display: block;
+	height: 6px;
+	position: absolute;
+	-webkit-transform: translate(0,0);
+	transform: translate(0,0);
+	width: 70px;
+	margin-top: 10px;
+}
+.bg-txt {
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	top: 30px;
+}

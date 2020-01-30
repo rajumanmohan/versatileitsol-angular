@@ -1,0 +1,128 @@
+/* banner styles */
+.contanct-img img {
+    width: 100%;
+}
+.contanct-img {
+  background-image: url(/assets/images/banners/portfolio-banner.jpg);
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nopad {
+  padding: 0;
+}
+.industries-bnr {
+  color: white;
+  top: 150px;
+  position: absolute;
+}
+.industries-bnr h5 {
+  margin-top: 30px;
+}
+.industries-bnr h1:after {
+  background: #4db848;
+  content: '';
+  top: 50px;
+  display: block;
+  height: 6px;
+  position: absolute;
+  -webkit-transform: translate(0,0);
+  transform: translate(0,0);
+  width: 70px;
+}
+
+
+.contanct-img h1:after {
+    background: #4db848;
+    content: '';
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+.nopad2 {
+  padding-right: 5px;
+}
+.apply-mobile-bottom {
+  line-height: 30px;
+}
+@media (max-width: 767.98px) {
+    .contanct-img img {
+        height: 200px;
+    }
+    a.req_btn {
+      position: relative !important;
+    }
+    .wrapper.request-callback {
+      padding: 20px 0 !important;
+    }
+    .header {
+      font-size: 18px;
+    }
+}
+@media (max-width: 490.98px) {
+  .apply-mobile-bottom {
+    line-height: 50px;
+  }
+}
+
+/* banner style ends here */
+
+.cst-careers p {
+    text-align: justify;
+}
+.cst-careers a {
+    text-decoration: none;
+}
+.career::after{
+    background: #4db848;
+    content: '';
+    display: block;
+    height: 6px;
+    position: absolute;
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    width: 70px;
+}
+
+.mb-0 > a {
+    display: block;
+    position: relative;
+  }
+  .mb-0 > a:after {
+    content: "\f078"; /* fa-chevron-down */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+  }
+  .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f077"; /* fa-chevron-up */
+  }
+  .acc-heading a{
+      color: black;
+      text-decoration: none;
+  }
+  .apply2{
+    background: #1e1e1e;
+    padding: 10px;
+    color: white!important;
+}
+.apply a {
+    text-decoration: none;
+}
+.career {
+    margin-bottom: 50px;
+}
+.card {
+    margin-bottom: 10px;
+}
+.card-header:hover{
+    background: #4db848;
+    color: white;
+}
+.acc-heading a:hover{
+    color: white;
+}

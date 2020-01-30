@@ -1,0 +1,300 @@
+<div class="container">
+  <div class="row mb-5">
+    <div class="col-sm-12">
+      <!-- You can now use your library component in app.component.html -->
+      <!-- <ngx-slick-carousel class="carousel"
+      #slickModal="slick-carousel"
+      [config]="slideConfig"
+      (init)="slickInit($event)"
+      (breakpoint)="breakpoint($event)"
+      (afterChange)="afterChange($event)"
+      (beforeChange)="beforeChange($event)">
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+      <img src="{{ slide.img }}" alt="" width="100%">
+      </div>
+      </ngx-slick-carousel> -->
+
+
+    </div>
+  </div>
+</div>
+
+<div class="wrapper request-callback revealOnScroll" data-animation="fadeInUp">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 request-form">
+        <h2 class="header request">Request a call back <img src="assets/images/28.png" class="img-fluid"
+            alt="Request a call back"></h2>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 request-form">
+        <a href="" class="req_btn" data-toggle="modal" data-target="#exampleModalCenter">Request Now</a>
+      </div>
+      <!-- <br />
+      <div>
+        <a href="" class="req_btn" data-toggle="modal" data-target="#subscribeModal">Subscribe Now</a>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade request-demo" id="exampleModalCenter" tabindex="-1" role="dialog"
+  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Get in touch</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row mb-5">
+          <div class="col-sm-12">
+            <div class="revealOnScroll">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control cont-form" placeholder="Name" [(ngModel)]="Name" name="Name"
+                      [ngModelOptions]="{standalone: true}">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="email" class="form-control cont-form" placeholder="Email" [(ngModel)]="Email"
+                      name="Email" [ngModelOptions]="{standalone: true}">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input type="tel" class="form-control cont-form" placeholder="Phone" [(ngModel)]="Phone"
+                      name="Phone" [ngModelOptions]="{standalone: true}" myNumberOnly maxlength="12">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="text" class="form-control cont-form" placeholder="Subject" [(ngModel)]="Subject"
+                      name="Subject" [ngModelOptions]="{standalone: true}">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Message" [(ngModel)]="message"
+                    [ngModelOptions]="{standalone: true}" name="message" rows="6"></textarea>
+                </div>
+                <!-- capcha -->
+                <div class="row mt-3">
+                  <div class="col-sm-12">
+                    <div class="cst-captcha">
+                      <div class="p-2">
+                        <input type="text" name="text" class="form-control input-field" placeholder="Enter Captcha"
+                          [(ngModel)]="captchaValue" name="captchaValue" [ngModelOptions]="{standalone: true}">
+                        <label *ngIf="showCaptchaer" class="text-danger" style="font-size:14px;">Incorrect
+                          Captcha,
+                          please try again</label>
+                      </div>
+                      <div class="p-2">
+                        <div class="captcha-border">
+                          <span id="captcha">{{captchaTExt}}</span> &nbsp; <img src="assets/images/refresh.png"
+                            (click)="refreshCaptcha()" class="captcha-img">
+                        </div>
+                      </div>
+                      <div class="p-2 btn-cnter">
+                        <button type="submit" class="btn btn-success" (click)="send()" data-dismiss="modal"
+                          aria-label="Close">Send</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- subscribe modal  -->
+
+<div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle1"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Subscribe</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row mb-5">
+          <div class="col-sm-12">
+            <div class="revealOnScroll">
+              <form>
+                <div class="form-row">
+                  <!-- <div class="form-group col-md-6">
+                     <input type="text" class="form-control cont-form" placeholder="Name" [(ngModel)]="Name"
+                       name="Name" [ngModelOptions]="{standalone: true}">
+                   </div> -->
+                  <div class="form-group col-md-6">
+                    <input type="email" class="form-control cont-form" placeholder="Email" [(ngModel)]="sub_Email"
+                      name="Email" [ngModelOptions]="{standalone: true}">
+                  </div>
+                </div>
+                <!-- <div class="form-row">
+                   <div class="form-group col-md-6">
+                     <input type="tel" class="form-control cont-form" placeholder="Phone" [(ngModel)]="Phone"
+                       name="Phone" [ngModelOptions]="{standalone: true}" myNumberOnly maxlength="12">
+                   </div>
+                   <div class="form-group col-md-6">
+                     <input type="text" class="form-control cont-form" placeholder="Subject" [(ngModel)]="Subject"
+                       name="Subject" [ngModelOptions]="{standalone: true}">
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <textarea class="form-control" placeholder="Message" [(ngModel)]="message"
+                     [ngModelOptions]="{standalone: true}" name="message" rows="6"></textarea>
+                 </div> -->
+                <!-- capcha -->
+                <div class="row mt-3">
+                  <div class="col-sm-12">
+                    <div class="cst-captcha">
+                      <!-- <div class="p-2">
+                         <input type="text" name="text" class="form-control input-field" placeholder="Enter Captcha"
+                           [(ngModel)]="captchaValue" name="captchaValue" [ngModelOptions]="{standalone: true}">
+                         <label *ngIf="showCaptchaer" class="text-danger" style="font-size:14px;">Incorrect
+                           Captcha,
+                           please try again</label>
+                       </div>
+                       <div class="p-2">
+                         <div class="captcha-border">
+                           <span id="captcha">{{captchaTExt}}</span> &nbsp; <img src="assets/images/refresh.png"
+                             (click)="refreshCaptcha()" class="captcha-img">
+                         </div>
+                       </div> -->
+                      <div class="p-2 btn-cnter">
+                        <button type="submit" class="btn btn-success" (click)="subscribe()" data-dismiss="modal"
+                          aria-label="Close">Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="footer-dark text-white animated fadeInUp">
+  <!-- <img src="assets/images/42.png" class="footer-hover-img img-fluid"> -->
+  <div class="container text-center text-md-left">
+    <div class="row mt-3">
+      <div class="col-sm-12">
+        <div class="cust-flx">
+          <div class="col-sm-12 col-md-4 col-lg-3 mx-auto">
+            <div class="we-revied">
+              <h5>WE ARE REVIEWED ON</h5>
+            </div>
+            <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig"
+              (init)="slickInit($event)" (breakpoint)="breakpoint($event)" (afterChange)="afterChange($event)"
+              (beforeChange)="beforeChange($event)">
+              <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                <a target="_blank"> <img [src]="slide.img" alt="" width="100%"></a>
+              </div>
+            </ngx-slick-carousel>
+            <div class="row">
+              <div class="col-md-12 col-sm-12 mt-5">
+                <img src="assets/images/iso-certified1.png" class="img-fluid iso-image w-100">
+              </div>
+            </div>
+          </div>
+          <div class="mx-auto mb-4 ft-mb useful-links">
+            <h5 class="text-uppercase font-weight-bold">SITEMAP</h5>
+            <p><a href="#" routerLink="/">Home</a></p>
+            <p><a href="#" routerLink="/about-us">About Us</a> </p>
+            <p><a href="#!" routerLink="career">Careers</a></p>
+            <p><a href="#!" routerLink="/portfolio">Portfolio</a></p>
+            <p><a href="#!" routerLink="/contact">Contact Us</a></p>
+            <p><a href="#" routerLink="/privacy-policy">Privacy Policy</a></p>
+            <p><a href="#" routerLink="/terms-and-conditions">Terms & conditions</a></p>
+            <p><a href="assets/images/versatile-portfolio-dubai.pdf" target="_blank">Download Brochure</a></p>
+          </div>
+          <div class=" mx-auto mb-md-0 mb-4 contact-info">
+            <h5 class="text-uppercase font-weight-bold">CONTACT INFO</h5>
+            <!-- <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"> -->
+            <p class="contact-icons icon-phone call-to-mobile"><a href="tel:+971 547862682"> +971 54 786 2682</a>
+              <br /> <a href="tel:+971 43366732">+971 4 336 6732</a> / <a href="tel:+971 43366733"
+                class="last-digit">33</a></p>
+
+            <p class="contact-icons icon-mail"><a href="mailto:info@versatileitsol.com">info@versatileitsol.com</a>
+            </p>
+            <p class="contact-icons icon-dubai"><a>Versatile IT Solutions LLC,<br> Office No: 1403, 14th Floor,<br> City
+                Towers 2, Biz City Business Centre ,<br> Sheikh Zayed Road, Dubai, U.A.E
+              </a></p>
+          </div>
+          <div class=" mx-auto mb-4">
+            <h5 class="text-uppercase font-weight-bold">FOLLOW US ON</h5>
+            <!-- <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"> -->
+            <ul class="follow-list">
+              <li class="facebook animated zoomIn delayone"><a
+                  href="https://www.facebook.com/Versatile-It-Solutions-2672027546146158/" title="Facebook"
+                  target="_blank"><img src="assets/images/33.png" alt="Facebook"></a></li>
+              <li class="instagram animated zoomIn delayfour"><a href="https://www.instagram.com/versatileitsolutions/"
+                  title="Instagram" target="_blank"><img src="assets/images/36.png" alt="Instagram"></a></li>
+              <!-- <li class="googleplus animated zoomIn delaytwo"><a
+                        href="https://plus.google.com/+VersatileMobitechPvtLtdV" title="GooglePlus"><img
+                          src="assets/images/38.png" alt="GooglePlus"></a></li> -->
+              <li class="twitter animated zoomIn delaytwo"><a href="https://twitter.com/Versatileitsol" title="Twitter"
+                  target="_blank"><img src="assets/images/34.png" alt="Twitter"></a></li>
+              <li class="pinterest animated zoomIn delayone"><a href=" https://in.pinterest.com/Versatileitsolutions/"
+                  title="Pinterest" target="_blank"><img src="assets/images/37.png" alt="Pinterest"></a></li>
+            </ul>
+            <ul class="follow-list">
+              <li class="linkedin animated zoomIn delaythree"><a
+                  href="https://www.linkedin.com/in/versatile-it-solutions-16102a184/" title="LinkedIn"
+                  target="_blank"><img src="assets/images/35.png" alt="LinkedIn"></a></li>
+              <li class="youtube animated zoomIn delaythree"><a
+                  href="https://www.youtube.com/channel/UCmEt2laV_KBTQxby3SkIodA" title="Youtube" target="_blank"><img
+                    src="assets/images/39.png" alt="youtube"></a></li>
+              <!-- <li class="tumblr animated zoomIn delayfour"><a href="https://versatilemobitech.tumblr.com"
+                  title="tumbler" target="_blank"><img src="assets/images/40.png" alt=""></a></li> -->
+              <li class="behance animated zoomIn delayfour"><a href="https://www.behance.net/versatileitsolutions/"
+                  title="behance" target="_blank"><img src="assets/images/41.png" alt=""></a></li>
+            </ul>
+            <br>
+            <h5 class="text-uppercase font-weight-bold">OUR APPS</h5>
+            <ul class="app-list">
+              <li class="mr-md-4 animated zoomIn"><a
+                  href="https://play.google.com/store/apps/dev?id=7778857320503546803&hl=en" title="Play Store"
+                  target="_blank"><img src="assets/images/play-store.png" alt="Play-store" class="ft-img"></a>
+              </li>
+              <li class="animated zoomIn"><a href="https://apps.apple.com/in/developer/versatile-mobitech/id1072655077"
+                  title="App Store" target="_blank"><img src="assets/images/app-store.png" class="ft-img"
+                    alt="App-store"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="footer-copyright text-center text-white py-2">Copyright © 2012-2019
+  <a href="https://versatileitsol.com/" class="text-white">Versatile IT Solutions LLC</a> All rights
+  reserved.
+</div>
+<!--Start of Tawk.to Script-->
+
+
+
+
+<script type="text/javascript">
+
+
+  var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+  (function () {
+    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/5d64b211eb1a6b0be6097ef5/default';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
+  })();
+</script>
+<!--End of Tawk.to Script-->
