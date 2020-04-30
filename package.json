@@ -27,7 +27,7 @@
     "amcharts3-angular2": "^1.2.1",
     "angular-progress-bar": "^1.0.9",
     "core-js": "^2.6.9",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-pagination": "^4.1.0",
     "ngx-slick-carousel": "^0.4.6",
     "rxjs": "~6.3.3",
